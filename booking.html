@@ -1,0 +1,888 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Book Pickup | FreshFold Laundry
+    </title>
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- TOPBAR -->
+    <!-- ================================= -->
+
+    <div class="topbar">
+
+        <div class="container">
+
+            <div class="top-left">
+
+                <span>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    +91 98765 43210
+
+                </span>
+
+                <span>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    info@freshfold.com
+
+                </span>
+
+            </div>
+
+            <div class="top-right">
+
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================================= -->
+    <!-- NAVBAR -->
+    <!-- ================================= -->
+
+    <nav class="navbar">
+
+        <div class="container">
+
+            <a href="index.html"
+               class="logo">
+
+                FreshFold
+
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="services.html">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="pricing.html">
+                        Pricing
+                    </a>
+                </li>
+
+                <li>
+                    <a href="booking.html">
+                        Book Pickup
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="menu-btn">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+
+    <!-- ================================= -->
+    <!-- BOOKING HERO -->
+    <!-- ================================= -->
+
+    <section class="booking-banner">
+
+        <div class="banner-overlay">
+
+            <div class="container">
+
+                <h1>
+
+                    Schedule Your Laundry Pickup
+
+                </h1>
+
+                <p>
+
+                    Quick, easy and professional
+                    laundry pickup at your doorstep.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================= -->
+    <!-- INTRO -->
+    <!-- ================================= -->
+
+    <section class="booking-intro">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>
+
+                    Book Now
+
+                </span>
+
+                <h2>
+
+                    Laundry Pickup In Less Than 1 Minute
+
+                </h2>
+
+                <p>
+
+                    Fill out the form below and our
+                    team will contact you shortly.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================= -->
+    <!-- BOOKING FORM -->
+    <!-- ================================= -->
+
+    <section class="booking-section">
+
+        <div class="container">
+
+            <div class="booking-grid">
+
+                <!-- FORM SIDE -->
+
+                <div class="booking-form-wrapper">
+
+                    <h2>
+
+                        Laundry Booking Form
+
+                    </h2>
+
+                    <form id="laundryForm">
+
+                        <!-- Name -->
+
+                        <div class="form-group">
+
+                            <input
+                            type="text"
+                            id="name"
+                            placeholder="Full Name"
+                            required>
+
+                        </div>
+
+                        <!-- Phone -->
+
+                        <div class="form-group">
+
+                            <input
+                            type="tel"
+                            id="phone"
+                            placeholder="Phone Number"
+                            required>
+
+                        </div>
+
+                        <!-- Email -->
+
+                        <div class="form-group">
+
+                            <input
+                            type="email"
+                            id="email"
+                            placeholder="Email Address">
+
+                        </div>
+
+                        <!-- Service -->
+
+                        <div class="form-group">
+
+                            <select id="service"
+                                    required>
+
+                                <option value="">
+
+                                    Select Service
+
+                                </option>
+
+                                <option>
+
+                                    Wash & Fold
+
+                                </option>
+
+                                <option>
+
+                                    Dry Cleaning
+
+                                </option>
+
+                                <option>
+
+                                    Steam Iron
+
+                                </option>
+
+                                <option>
+
+                                    Pickup & Delivery
+
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                        <!-- Date & Time -->
+
+                        <div class="form-row">
+
+                            <input
+                            type="date"
+                            id="date"
+                            required>
+
+                            <input
+                            type="time"
+                            id="time"
+                            required>
+
+                        </div>
+
+                        <!-- Address -->
+
+                        <div class="form-group">
+
+                            <textarea
+                            id="address"
+                            rows="5"
+                            placeholder="Pickup Address"
+                            required></textarea>
+
+                        </div>
+
+                        <!-- Notes -->
+
+                        <div class="form-group">
+
+                            <textarea
+                            id="notes"
+                            rows="4"
+                            placeholder="Additional Notes"></textarea>
+
+                        </div>
+
+                        <!-- Button -->
+
+                        <button
+                        type="submit"
+                        class="btn-primary booking-btn">
+
+                            Book Via WhatsApp
+
+                        </button>
+
+                    </form>
+
+                </div>
+
+
+
+                <!-- INFO SIDE -->
+
+                <div class="booking-info">
+
+                    <h3>
+
+                        Why Choose FreshFold?
+
+                    </h3>
+
+                    <ul>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Free Pickup & Delivery
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Same Day Service Available
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Professional Fabric Care
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            Affordable Pricing
+
+                        </li>
+
+                        <li>
+
+                            <i class="fa-solid fa-circle-check"></i>
+
+                            24/7 Customer Support
+
+                        </li>
+
+                    </ul>
+
+                    <div class="booking-image">
+
+                        <img src="images/booking-side.jpg"
+                             alt="Laundry Pickup">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================================= -->
+    <!-- BOOKING PROCESS -->
+    <!-- ================================= -->
+
+    <section class="booking-process">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>
+
+                    Process
+
+                </span>
+
+                <h2>
+
+                    How Our Service Works
+
+                </h2>
+
+                <p>
+
+                    Simple, fast and hassle-free
+                    laundry experience.
+
+                </p>
+
+            </div>
+
+            <div class="process-grid">
+
+                <div class="process-card">
+
+                    <i class="fa-solid fa-calendar-check"></i>
+
+                    <h3>
+
+                        Book Pickup
+
+                    </h3>
+
+                    <p>
+
+                        Schedule your pickup
+                        online or via WhatsApp.
+
+                    </p>
+
+                </div>
+
+                <div class="process-card">
+
+                    <i class="fa-solid fa-box"></i>
+
+                    <h3>
+
+                        We Collect
+
+                    </h3>
+
+                    <p>
+
+                        Our team picks up
+                        your laundry.
+
+                    </p>
+
+                </div>
+
+                <div class="process-card">
+
+                    <i class="fa-solid fa-soap"></i>
+
+                    <h3>
+
+                        Cleaning
+
+                    </h3>
+
+                    <p>
+
+                        Professional washing
+                        and fabric care.
+
+                    </p>
+
+                </div>
+
+                <div class="process-card">
+
+                    <i class="fa-solid fa-truck"></i>
+
+                    <h3>
+
+                        Delivery
+
+                    </h3>
+
+                    <p>
+
+                        Fresh laundry delivered
+                        back to you.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================= -->
+    <!-- FAQ SECTION -->
+    <!-- ================================= -->
+
+    <section class="faq-section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>
+
+                    FAQ
+
+                </span>
+
+                <h2>
+
+                    Frequently Asked Questions
+
+                </h2>
+
+            </div>
+
+            <div class="faq-container">
+
+                <!-- FAQ 1 -->
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        How long does laundry service take?
+
+                        <i class="fa-solid fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Most orders are completed
+                            within 24–48 hours.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ 2 -->
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        Do you provide free pickup?
+
+                        <i class="fa-solid fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Yes, pickup and delivery
+                            are available for selected orders.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- FAQ 3 -->
+
+                <div class="faq-item">
+
+                    <button class="faq-question">
+
+                        Can I request same day service?
+
+                        <i class="fa-solid fa-plus"></i>
+
+                    </button>
+
+                    <div class="faq-answer">
+
+                        <p>
+
+                            Yes, express laundry
+                            options are available.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================= -->
+    <!-- CTA -->
+    <!-- ================================= -->
+
+    <section class="booking-cta">
+
+        <div class="container">
+
+            <h2>
+
+                Ready To Schedule Your Pickup?
+
+            </h2>
+
+            <p>
+
+                Book today and enjoy
+                premium laundry service.
+
+            </p>
+
+            <a href="#"
+               class="btn-primary">
+
+                Book Now
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================================= -->
+    <!-- FOOTER -->
+    <!-- ================================= -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-col">
+
+                    <h3>
+
+                        FreshFold Laundry
+
+                    </h3>
+
+                    <p>
+
+                        Professional laundry
+                        services with pickup
+                        and delivery.
+
+                    </p>
+
+                </div>
+
+                <div class="footer-col">
+
+                    <h4>
+
+                        Quick Links
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="services.html">
+                                Services
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="pricing.html">
+                                Pricing
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-col">
+
+                    <h4>
+
+                        Services
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            Wash & Fold
+                        </li>
+
+                        <li>
+                            Dry Cleaning
+                        </li>
+
+                        <li>
+                            Steam Iron
+                        </li>
+
+                        <li>
+                            Pickup & Delivery
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-col">
+
+                    <h4>
+
+                        Contact
+
+                    </h4>
+
+                    <ul>
+
+                        <li>
+                            +91 98765 43210
+                        </li>
+
+                        <li>
+                            info@freshfold.com
+                        </li>
+
+                        <li>
+                            Jaipur, Rajasthan
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 FreshFold Laundry.
+                All Rights Reserved.Designed by Shadow15
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ================================= -->
+    <!-- WHATSAPP BUTTON -->
+    <!-- ================================= -->
+
+    <a href="https://wa.me/919876543210"
+       class="whatsapp-btn"
+       target="_blank">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+
+
+    <!-- ================================= -->
+    <!-- TOP BUTTON -->
+    <!-- ================================= -->
+
+    <button id="topBtn">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+
+    <!-- ================================= -->
+    <!-- SUCCESS POPUP -->
+    <!-- ================================= -->
+
+    <div class="success-popup">
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        <h3>
+
+            Redirecting To WhatsApp...
+
+        </h3>
+
+    </div>
+
+
+
+    <!-- ================================= -->
+    <!-- SCRIPT -->
+    <!-- ================================= -->
+
+      <script src="js/script.js"></script>
+
+</body>
+
+</html>
+
